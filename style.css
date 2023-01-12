@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px auto;
+    margin-top: 100px;
+}
+.logo{
+    width: 200px;
+}
+.secaoFrutas{
+    display: flex;
+    justify-content: center;
+}
+#listaItens{
+    list-style: none;
+}
+.frutas{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    padding-inline: 200px;
+}
+
+#box1:hover{
+    color: white;    ;
+    background-image: linear-gradient(to right, purple, green, purple);
+}
+#box2:hover{
+    background-image: linear-gradient(to right, red, green, yellow );
+    color: rgb(255, 255, 255);
+}
+#box3:hover{
+    background-image: linear-gradient(to right,  yellow, rgb(33, 177, 33), rgb(51, 226, 51));
+    color: rgb(255, 255, 255);;
+}
+#box4:hover{
+    background-image: linear-gradient(to right,  red, green, rgb(230, 5, 5));
+    color: rgb(255, 255, 255);
+}
+#box5:hover{
+    background-image: linear-gradient(to right,  #ff8c00, #ff5400, green);
+    color: rgb(255, 255, 255);
+}
